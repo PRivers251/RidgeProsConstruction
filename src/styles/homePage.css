@@ -1,0 +1,16 @@
+.cardSection {
+    min-height: 33vh;
+}
+
+.card {
+    min-height: 20rem;
+    max-width: 17rem;
+}
+
+.heroSection {
+    min-height: 50vh;
+}
+
+.infoSection {
+    min-height: 40vh;
+}
