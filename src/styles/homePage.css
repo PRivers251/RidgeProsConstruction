@@ -9,8 +9,31 @@
 
 .heroSection {
     min-height: 50vh;
+    @apply relative bg-[url('/images/heroImg.png')] bg-cover flex-grow w-full;
 }
 
 .infoSection {
     min-height: 40vh;
 }
+
+.infoSecPic {
+    max-width: 50%;
+    min-height: 300px;
+    object-fit: cover;
+}
+
+.titleContainer {
+    @apply relative top-20 left-5 w-1/2;
+}
+
+.heroSubtitle {
+    color: 
+    rgb(240,43,52);
+    @apply text-3xl font-bold mt-3;
+}
+
+.freeQuoteContainer {
+    @apply border-solid min-h-60 mt-5;
+    background-color: 
+    rgb(240,43,52);
+} 

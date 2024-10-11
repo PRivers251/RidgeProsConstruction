@@ -25,6 +25,14 @@ body {
   }
 }
 
+.navMenu {
+  @apply flex space-x-4 items-center;
+}
+
+.navMenuItem {
+  @apply hidden md:block text-gray-800;
+}
+
 .footer {
   background-color: rgba(28,28,27,.85);
 }
@@ -37,6 +45,7 @@ body {
 .callToActionButton {
   border-radius: 50;
   border-color: #d60506;
+  font-weight: bold;
 }
 .callToActionButton:hover {
   background-color: #d60506;

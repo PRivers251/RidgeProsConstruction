@@ -9,8 +9,11 @@ import '../../../styles/homePage.css'; //custom styles
 
 export default function Cards(){
     return (
-        <section className="cardSection flex justify-center p-10">
-
+        <section className="cardSection flex flex-col items-center justify-center p-10">
+            <div className="w-full">
+                <h1 className="text-3xl font-bold text-center mb-6">Services</h1>
+            </div>
+            <div className="max-w-screen-md w-full">
             <Swiper
                 modules={[Navigation, Pagination]}
                 spaceBetween={20}
@@ -36,6 +39,7 @@ export default function Cards(){
                         <div className='text-lg font-medium'>Card 3</div>
                     </SwiperSlide>
                 </Swiper>
+                </div>
         </section>
     );
 };

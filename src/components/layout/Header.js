@@ -12,10 +12,10 @@ export default function Header(){
         height={15}
         />
         </div>
-        <div className="flex space-x-4 items-center">
-            <a href="/" className="text-gray-800">Home</a>
-            <a href="/about" className="text-gray-800">About</a>
-            <a href="/services" className="text-gray-800">Services</a>
+        <div className="navMenu">
+            <a href="/" className="navMenuItem">Home</a>
+            <a href="/about" className="navMenuItem">About</a>
+            <a href="/services" className="navMenuItem">Services</a>
             <a href="#" className="text-gray-800 border rounded-lg border-solid p-1 callToActionButton">Call Now!</a>
         </div>
         </div>
