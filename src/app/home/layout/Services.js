@@ -32,11 +32,17 @@ export default function Cards(){
                     <SwiperSlide className='card bg-white rounded-lg shadow-md p-6 transition-transform hover:-translate-y-2'>
                         <div className='text-lg font-medium'>Card 1</div>
                     </SwiperSlide>
+                    
                     <SwiperSlide className='card bg-white rounded-lg shadow-md p-6 transition-transform hover:-translate-y-2'>
                         <div className='text-lg font-medium'>Card 2</div>
                     </SwiperSlide>
+                    
                     <SwiperSlide className='card bg-white rounded-lg shadow-md p-6 transition-transform hover:-translate-y-2'>
                         <div className='text-lg font-medium'>Card 3</div>
+                    </SwiperSlide>
+                    
+                    <SwiperSlide className='card bg-white rounded-lg shadow-md p-6 transition-transform hover:-translate-y-2'>
+                        <div className='text-lg font-medium'>Card 4</div>
                     </SwiperSlide>
                 </Swiper>
                 </div>

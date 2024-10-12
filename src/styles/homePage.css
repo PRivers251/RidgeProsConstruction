@@ -12,14 +12,8 @@
     @apply relative bg-[url('/images/heroImg.png')] bg-cover flex-grow w-full;
 }
 
-.infoSection {
-    min-height: 40vh;
-}
-
-.infoSecPic {
-    max-width: 50%;
-    min-height: 300px;
-    object-fit: cover;
+.heroBGOverlay {
+    @apply absolute inset-0 bg-black bg-opacity-50;
 }
 
 .titleContainer {
@@ -29,11 +23,72 @@
 .heroSubtitle {
     color: 
     rgb(240,43,52);
-    @apply text-3xl font-bold mt-3;
+    @apply relative text-3xl font-bold mt-3;
 }
 
-.freeQuoteContainer {
-    @apply border-solid min-h-60 mt-5;
+.heroCTAButtonContainer {
+    @apply w-full md:flex md:justify-center relative text-center top-40 text-2xl font-bold text-white;
+}
+
+.heroCTAButton {
+    @apply w-full md:w-auto md:px-5 border-solid border-2 p-2 rounded-lg hover:bg-white hover:text-black;
+}
+
+.QuoteFormContainer {
+    @apply border-solid min-h-60;
     background-color: 
     rgb(240,43,52);
 } 
+
+.QuoteFormContainer h1 {
+    @apply text-center pt-8 text-xl font-bold text-white;
+}
+
+.QuoteFormContainer form {
+    @apply flex flex-col  w-3/4 py-5;
+}
+
+.QuoteFormContainer label {
+    @apply pt-3
+}
+
+.QuoteFormContainer input {
+    @apply p-1 pl-3
+}
+
+.QuoteFormContainerError {
+    @apply text-white py-2
+}
+
+.QuoteFormSubmitContainer {
+    @apply pb-8 md:flex md:justify-center;
+}
+
+.QuoteFormSubmitContainer button {
+    @apply mt-5 p-2 text-2xl border-solid border-2 text-white font-bold rounded-lg w-full md:w-auto;
+}
+
+.QuoteFormContainer button:hover {
+    @apply bg-white text-black;
+}
+
+.aboutUsSection {
+    min-height: 40vh;
+    @apply relative bg-[url('/images/aboutUs_BG.png')] bg-cover;
+}
+
+.aboutUsSectionPic {
+    max-width: 50%;
+    min-height: 300px;
+    object-fit: cover;
+}
+
+.aboutUsBGOverlay {
+    @apply absolute inset-0 opacity-65;
+    background-color: rgb(214, 219, 220);
+    
+}
+
+.aboutUsContentContainer {
+    @apply relative px-6 pb-10 z-20 text-lg;
+}
