@@ -1,5 +1,7 @@
 This is a Next.js project that is currently in development for a local roofing contractor. The project utilizes Tailwind for styling and will eventually feature a simple backend framework in order to connect with the client's CRM.
 
+See the Site Live [HERE](https://ridge-pros-construction.vercel.app/).
+
 Update:
   1. Initialized the project utilizing NextJs and Tailwind.
   2. Created page layout.
