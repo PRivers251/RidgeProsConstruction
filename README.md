@@ -1,3 +1,16 @@
+This is a Next.js project that is currently in development for a local roofing contractor. The project utilizes Tailwind for styling and will eventually feature a simple backend framework in order to connect with the client's CRM.
+
+Update:
+  1. Initialized the project utilizing NextJs and Tailwind.
+  2. Created page layout.
+  3. Styled the project according to client's branding.
+
+Next Steps in development include:
+  1. Complete home / landing page UI.
+  2. Add content to periphreal pages.
+  3. Further enhance page responsiveness.
+  4. Integrate Hubspot API in order to allow the client to capture and manage leads to a centralized Hubspot account.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
