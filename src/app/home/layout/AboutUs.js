@@ -11,7 +11,7 @@ export default function AboutUs(){
             
             <div className="aboutUsContentContainer">
                 <p>
-                At RidgePro Construction, we specialize in delivering top-quality roofing and residential construction services to homeowners throughout Mobile County, Alabama, and the surrounding areas. Led by owner Ryan Bethea, who brings over 12 years of industry experience and a unique perspective as an insurance specialist, our team is committed to protecting and enhancing your home with the highest standards of craftsmanship.
+                At Storm Shield, we specialize in delivering top-quality roofing and residential construction services to homeowners throughout Mobile County, Alabama, and the surrounding areas. Led by owner Ryan Bethea, who brings over 12 years of industry experience and a unique perspective as an insurance specialist, our team is committed to protecting and enhancing your home with the highest standards of craftsmanship.
                 </p>
                 <br/>
                 <p>

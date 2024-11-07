@@ -8,8 +8,14 @@
 }
 
 .heroSection {
-    min-height: 50vh;
-    @apply relative bg-[url('/images/heroImg.png')] bg-cover flex-grow w-full;
+    min-height: 65vh;
+    @apply relative bg-[url('/images/heroImg.png')] bg-cover flex-grow w-full flex-col;
+}
+
+@media (min-width: 500px){
+    .heroSection {
+        min-height: 50vh;
+    }
 }
 
 .heroBGOverlay {
@@ -27,7 +33,7 @@
 }
 
 .heroCTAButtonContainer {
-    @apply w-full md:flex md:justify-center relative text-center top-40 text-2xl font-bold text-white;
+    @apply w-full md:flex md:justify-center relative md:top-40 top-32 text-center text-2xl font-bold text-white;
 }
 
 .heroCTAButton {

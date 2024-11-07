@@ -15,6 +15,7 @@ export default function Cards(){
             </div>
             <div className="max-w-screen-md w-full">
             <Swiper
+                className="pt-5"
                 modules={[Navigation, Pagination]}
                 spaceBetween={20}
                 slidesPerView={1} //Show one card at a time on mobile

@@ -1,15 +1,15 @@
 import Image from "next/image";
 export default function Header(){
     return (
-    <header className="bg-gray-200 h-16 flex items-center justify-center">
+    <header className="bg-white h-24 flex items-center justify-center">
     <nav className="w-full bg-transparent p-4">
        <div className="container mx-auto flex items-center justify-between">
         <div className="flex items-center">
         <Image 
         href='/'
-        src='/images/ridgeproslogo.png' 
-        width={150} 
-        height={15}
+        src='/images/storm-shield-logo.png'
+        width={110}
+        height={100}
         />
         </div>
         <div className="navMenu">
