@@ -21,7 +21,11 @@ export default function Header(){
 
         {/*Hamburger Menue*/}
         <div className="md:hidden">
-
+          <button id="menu-toggle" class="hamburger" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
         </div>
         </div>
       </nav>
