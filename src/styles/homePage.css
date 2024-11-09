@@ -4,8 +4,8 @@
 }
 
 .serviceCard {
-    min-height: 20rem;
-    max-width: 17rem;
+    @apply w-full;
+    min-height: 50vh;
 }
 
 .heroSection {

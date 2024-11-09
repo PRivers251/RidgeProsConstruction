@@ -31,19 +31,19 @@ export default function Cards(){
                 pagination={{ clickable: true }}
                 >
                     <SwiperSlide className='serviceCard bg-white rounded-lg shadow-md p-6 transition-transform hover:-translate-y-2'>
-                        <div className='text-lg font-medium'>Card 1</div>
+                        <div className='text-lg font-medium'>Service 1</div>
                     </SwiperSlide>
                     
                     <SwiperSlide className='serviceCard bg-white rounded-lg shadow-md p-6 transition-transform hover:-translate-y-2'>
-                        <div className='text-lg font-medium'>Card 2</div>
+                        <div className='text-lg font-medium'>Service 2</div>
                     </SwiperSlide>
                     
                     <SwiperSlide className='serviceCard bg-white rounded-lg shadow-md p-6 transition-transform hover:-translate-y-2'>
-                        <div className='text-lg font-medium'>Card 3</div>
+                        <div className='text-lg font-medium'>Service 3</div>
                     </SwiperSlide>
                     
                     <SwiperSlide className='serviceCard bg-white rounded-lg shadow-md p-6 transition-transform hover:-translate-y-2'>
-                        <div className='text-lg font-medium'>Card 4</div>
+                        <div className='text-lg font-medium'>Service 4</div>
                     </SwiperSlide>
                 </Swiper>
                 </div>

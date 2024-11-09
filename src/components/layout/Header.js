@@ -30,7 +30,7 @@ export default function Header(){
 
         {/*Hamburger Menue*/}
         <div className="md:hidden">
-          <button onClick={toggleMenu} id="menu-toggle" className="hamburgerMenu" aria-label="Toggle menu">
+          <button onClick={toggleMenu} id="menu-toggle" className={`hamburgerMenu ${isOpen ? "open" : ""}`} aria-label="Toggle menu">
             <span></span>
             <span></span>
             <span></span>
@@ -38,7 +38,7 @@ export default function Header(){
         </div>
         
         {/*Mobile NavMenu*/}
-        <div className={`${isOpen ? 'flex' : 'hidden'} mobileNavMenu`}>
+        <div className={`${isOpen ? 'visible' : 'hide'} mobileNavMenu`}>
           <a href="/" className="mobileNavItem">Home</a>
           <a href="/about" className="mobileNavItem">About</a>
           <a href="/services" className="mobileNavItem">Services</a>
