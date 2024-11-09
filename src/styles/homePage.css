@@ -81,7 +81,7 @@
 
 .aboutUsSection {
     min-height: 40vh;
-    @apply relative bg-[url('/images/aboutUs_BG.png')] bg-cover;
+    @apply relative bg-[url('/images/aboutUsBG.png')] bg-cover;
 }
 
 .aboutUsSectionPic {
