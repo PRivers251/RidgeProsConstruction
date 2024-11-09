@@ -46,12 +46,12 @@ body {
   border-radius: 50;
   border-color: #d60506;
   font-weight: bold;
-  @apply text-gray-800 border rounded-lg border-solid p-1;
+  @apply text-gray-800 border rounded-lg border-solid p-2;
 }
 
-@media (max-width: 500px){
+@media (max-width: 767px){
   .headerCTAButton {
-    @apply w-36 h-12 text-center flex justify-center items-center text-xl
+    @apply w-auto h-auto text-center flex justify-center items-center text-lg
   }
 }
 
@@ -60,7 +60,7 @@ body {
   color: white;
 }
 
-@media (max-width: 500px){
+@media (max-width: 767px){
 .hamburgerMenu {
   @apply flex flex-col gap-2 mr-5 p-1
 }
@@ -73,7 +73,7 @@ body {
 /*Mobile Nav Menu*/
 
 .mobileNavMenu {
-  @apply md:hidden 
+  @apply lg:hidden 
   left-0 right-0 top-24 z-50
   flex-col absolute 
   w-full 

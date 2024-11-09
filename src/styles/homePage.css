@@ -32,8 +32,8 @@
 
 .heroCTAButtonContainer {
     @apply w-full z-40
-    md:flex md:justify-center 
-    md:relative md:top-40 top-32 
+    flex md:justify-center 
+    md:relative md:top-40 md:top-32 
     my-5
     text-center text-2xl font-bold text-white;
 }
