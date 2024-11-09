@@ -1,8 +1,9 @@
-.cardSection {
+.servicesSection {
     min-height: 33vh;
+    @apply flex flex-col items-center justify-center p-10
 }
 
-.card {
+.serviceCard {
     min-height: 20rem;
     max-width: 17rem;
 }

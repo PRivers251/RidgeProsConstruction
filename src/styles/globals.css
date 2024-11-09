@@ -26,7 +26,7 @@ body {
 }
 
 .navMenu {
-  @apply flex space-x-4 items-center;
+  @apply flex md:space-x-4 items-center;
 }
 
 .navMenuItem {
@@ -48,7 +48,43 @@ body {
   font-weight: bold;
   @apply text-gray-800 border rounded-lg border-solid p-1;
 }
+
+@media (max-width: 500px){
+  .headerCTAButton {
+    @apply w-36 h-12 text-center flex justify-center items-center text-xl
+  }
+}
+
 .headerCTAButton:hover {
   background-color: #d60506;
   color: white;
+}
+
+@media (max-width: 500px){
+.hamburgerMenu {
+  @apply flex flex-col gap-1
+}
+.hamburgerMenu span {
+  @apply bg-black w-6 h-0.5;
+}
+}
+
+/*Mobile Nav Menu*/
+
+.mobileNavMenu {
+  @apply md:hidden 
+  left-0 right-0 top-24 z-50
+  flex-col absolute 
+  w-full text-center 
+  rounded-b-lg 
+  bg-white shadow-lg
+  items-center
+}
+
+.mobileNavItem {
+   @apply flex my-5
+}
+
+.mobileNavItem:hover {
+  
 }

@@ -1,6 +1,15 @@
+"use client"
+
 import Image from "next/image";
+import { useState } from 'react';
+
 export default function Header(){
-    return (
+  const [isOpen, setIsOpen] = useState(false);
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };  
+  
+  return (
     <header className="bg-white h-24 flex items-center justify-center">
     <nav className="w-full bg-transparent p-4">
        <div className="container mx-auto flex items-center justify-between">
@@ -21,11 +30,18 @@ export default function Header(){
 
         {/*Hamburger Menue*/}
         <div className="md:hidden">
-          <button id="menu-toggle" class="hamburger" aria-label="Toggle menu">
+          <button onClick={toggleMenu} id="menu-toggle" className="hamburgerMenu" aria-label="Toggle menu">
             <span></span>
             <span></span>
             <span></span>
           </button>
+        </div>
+        
+        {/*Mobile NavMenu*/}
+        <div className={`${isOpen ? 'flex' : 'hidden'} mobileNavMenu`}>
+          <a href="/" className="mobileNavItem">Home</a>
+          <a href="/about" className="mobileNavItem">About</a>
+          <a href="/services" className="mobileNavItem">Services</a>
         </div>
         </div>
       </nav>
