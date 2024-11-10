@@ -1,8 +1,8 @@
-## RidgePros Construction Website - In Progress
+## Storm Shield Builders LLC - In Progress
 
 This is a Next.js project that is currently in development for a local roofing contractor. The project utilizes Tailwind for styling and will eventually feature a simple backend framework in order to connect with the client's CRM.
 
-- See the Site Live [HERE](https://ridge-pros-construction.vercel.app/).
+- See the Site Live [HERE](https://storm-shield-builders.vercel.app/).
 - See program files [HERE]().
 
 Update:
