@@ -16,7 +16,7 @@ export default function AboutUs(){
                 </p>
                 <br/>
                 <p>    
-                    Founded by Ryan Bethea and Jonathan Brantly, who collectively bring over 30 years of experience in
+                    Founded by Ryan Bethea and Jonathan Brantley, who collectively bring over 30 years of experience in
                     residential construction and property insurance, our company provides expert solutions tailored to the unique demands of our climate
                     here along the Gulf Coast.
                 </p>
