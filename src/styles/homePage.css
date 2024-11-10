@@ -1,13 +1,52 @@
+
+
+/*Services section*/
+.swiper-slide {
+    height: auto;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    @apply hidden md:block;
+}
+
 .servicesSection {
     min-height: 33vh;
-    @apply flex flex-col items-center justify-center p-10
+    @apply flex flex-col items-center justify-center p-2
 }
 
 .serviceCard {
-    @apply w-full;
-    min-height: 50vh;
+    @apply flex flex-col flex-grow
+    items-center
+    w-full bg-white py-3 mt-3
+    rounded-lg shadow-md 
+    transition-transform 
+    hover:-translate-y-2;
+    height:auto;
+    min-height: 30rem;
 }
 
+.serviceCard .serviceHeader {
+    @apply text-xl font-bold py-3
+}
+
+.servicePhotoContainer {
+    @apply relative w-full justify-center
+    overflow-hidden;
+    height: auto;
+    min-height: 15rem;
+}
+
+.servicesContent {
+    @apply flex-col text-left p-2;
+    height: auto;
+    min-height: 50%;
+}
+
+.servicesContent li {
+    @apply my-4
+}
+
+/*Hero Section*/
 .heroSection {
     min-height: 50vh;
     @apply relative bg-[url('/images/heroImg.png')] bg-cover flex w-full flex-col;
@@ -42,6 +81,9 @@
     @apply w-full md:w-auto md:px-5 border-solid border-2 p-2 rounded-lg hover:bg-white hover:text-black;
 }
 
+
+
+/*Form Section*/
 .QuoteFormContainer {
     @apply border-solid min-h-60;
     background-color: 
@@ -80,6 +122,9 @@
     @apply bg-white text-black;
 }
 
+
+
+/*About Us Section*/
 .aboutUsSection {
     min-height: 40vh;
     @apply relative bg-[url('/images/aboutUsBG.png')] bg-cover;

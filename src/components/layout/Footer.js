@@ -13,6 +13,13 @@ export default function Footer(){
                 </li>
             </ul>
             </div>
+
+            <div className="signature">
+                <p>Powered by: <a
+                href="https://www.github.com/privers251"
+                target="_blank"
+                >Patrick Rivers</a></p>
+            </div>
         </footer>
     )
 }

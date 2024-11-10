@@ -33,15 +33,6 @@ body {
   @apply hidden md:block text-gray-800;
 }
 
-.footer {
-  background-color: rgba(28,28,27,.85);
-}
-
-.footerIcon:hover {
-  color:#d60506;
-  font-size: 2.2rem;
-}
-
 .headerCTAButton {
   border-radius: 50;
   border-color: #d60506;
@@ -118,4 +109,20 @@ body {
 
 .hamburgerMenu.open span:last-child {
   transform: rotate(-45deg) translate(7px, -7px);
+}
+
+
+/*footer*/
+.footer {
+  background-color: rgba(28,28,27,.85);
+  @apply flex flex-col
+}
+
+.footerIcon:hover {
+  color:#d60506;
+  font-size: 2.2rem;
+}
+
+.footer .signature {
+  @apply flex p-3 justify-end items-end text-slate-200; 
 }

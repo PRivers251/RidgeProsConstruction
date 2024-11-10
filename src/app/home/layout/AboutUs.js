@@ -7,15 +7,24 @@ export default function AboutUs(){
            <div className="aboutUsBGOverlay">
                 
                 </div>
-            <h1 className="relative text-3xl font-bold text-center py-6 z-20">Who We Are</h1>
+            <h1 className="relative text-3xl font-bold text-center py-6 z-20">Who We Are - Storm Shield Builders LLC</h1>
             
             <div className="aboutUsContentContainer">
                 <p>
-                At Storm Shield, we specialize in delivering top-quality roofing and residential construction services to homeowners throughout Mobile County, Alabama, and the surrounding areas. Led by owner Ryan Bethea, who brings over 12 years of industry experience and a unique perspective as an insurance specialist, our team is committed to protecting and enhancing your home with the highest standards of craftsmanship.
+                    Storm Shield Builders LLC is a trusted name in roofing, construction, and disaster mitigation services in Mobile, AL, and the 
+                    surrounding Gulf Coast areas. 
                 </p>
                 <br/>
+                <p>    
+                    Founded by Ryan Bethea and Jonathan Brantly, who collectively bring over 30 years of experience in
+                    residential construction and property insurance, our company provides expert solutions tailored to the unique demands of our climate
+                    here along the Gulf Coast.
+                </p>
+                <br/>
+
                 <p>
-                Whether you need a roof repair or a full home remodel, RidgePro is here to get the job done right. We know how to work with your insurance company to ensure you get the coverage you deserve while providing exceptional service and results.
+                    From roofing repairs and replacements to full-scale residential construction and professional estimation services for contractors, we are committed to
+                    delivering quality and reliability in every project.
                 </p>
             </div>
             
