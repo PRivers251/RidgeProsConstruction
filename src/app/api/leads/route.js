@@ -96,7 +96,7 @@ export async function POST(request){
     // };
 
     try {
-        response = await axios.post(url, leadData, { headers })
+        await axios.post(url, leadData, { headers })
         .then(response => {
             console.log('Lead created successfully: ', response.data);
         })
