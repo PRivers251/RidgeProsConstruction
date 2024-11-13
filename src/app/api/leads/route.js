@@ -82,7 +82,6 @@ export async function POST(request){
 
     const leadData = {data: [inputData]};
         
-    console.log("Data: ", leadData)
     console.log('\n\n')
     // const leadData = {
     //     data: [

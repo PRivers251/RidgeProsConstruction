@@ -40,7 +40,6 @@ export default function QuoteForm() {
         
         try {
             const response = await axios.post('/api/leads', formData);
-            console.log('Success: ',formData)
             console.log(response)
         } catch (error) {
             console.error('Error submitting lead', error);
