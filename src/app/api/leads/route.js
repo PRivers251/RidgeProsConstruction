@@ -73,7 +73,7 @@ export async function POST(request){
     const data = await request.json(); //parse incoming data
     console.log('Received data: ', data)
 
-    console.log(data)
+    console.log('Server Reached');
     submitLeadData(data)
     
     return NextResponse.json({message: 'Successfully connected'})

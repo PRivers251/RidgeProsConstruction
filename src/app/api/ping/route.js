@@ -9,11 +9,13 @@ export async function GET(request) {
             }
         });
 
+        console.log('Server Reached!!!!')
         return new Response(JSON.stringify({
             status: 'success',
             data: response.data
         }), { status: 200 });
     } catch (error) {
+        console.log('Server Reached!!!!!')
         return new Response(JSON.stringify({
             status: 'error',
             message: error.message,
