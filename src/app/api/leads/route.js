@@ -33,7 +33,46 @@ async function getRefreshToken() {
 }
 
 
-async function submitLeadData(inputData){
+// async function submitLeadData(inputData){
+//     const accessToken = await getRefreshToken();
+//     const url = leadsAPIEndpoint;
+//     const headers = {
+//        'Content-Type': 'application/json',
+//         Authorization: `Bearer ${accessToken}`
+//     }
+
+//     const leadData = {data: [inputData]};
+        
+//     console.log("Data: ", leadData)
+//     console.log('\n\n')
+//     // const leadData = {
+//     //     data: [
+//     //         {
+//     //             First_Name: '',
+//     //             Last_Name: '',
+//     //             Email: '',
+//     //             Phone: ''
+//     //         }
+//     //     ]
+//     // };
+
+//     try {
+//         response = await axios.post(url, leadData, { headers })
+//         .then(response => {
+//             console.log('Lead created successfully: ', response.data);
+//         })
+//     } catch (error) {
+//         console.log(leadsAPIEndpoint)
+//         console.log('Unsuccessful', error.response ? error.response.data : error.message)
+//     }
+// }
+
+
+
+export async function POST(request){
+    const inputData = await request.json(); //parse incoming data
+    console.log('Data Properly Received...')
+
     const accessToken = await getRefreshToken();
     const url = leadsAPIEndpoint;
     const headers = {
@@ -65,18 +104,13 @@ async function submitLeadData(inputData){
         console.log(leadsAPIEndpoint)
         console.log('Unsuccessful', error.response ? error.response.data : error.message)
     }
-}
 
 
 
-export async function POST(request){
-    const data = await request.json(); //parse incoming data
-    console.log('Data Properly Received...')
+    //submitLeadData(data)
+    // console.log('Data sent to submitLeadData Function...');
 
-    submitLeadData(data)
-    console.log('Data sent to submitLeadData Function...');
-
-    //return NextResponse.json({message: 'Successfully connected'})
+    return NextResponse.json({message: 'Successfully connected'})
     
     
 }
