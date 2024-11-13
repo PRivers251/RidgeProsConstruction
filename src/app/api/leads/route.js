@@ -13,7 +13,7 @@ const clientSecret = process.env.ZOHO_CLIENT_SECRET;
 const leadsAPIEndpoint = process.env.API_LEADS_URL;
 
 async function getRefreshToken() {
-    const url = `${apiBaseURL}/token?client_id=${clientID}&client_secret=${clientSecret}&grant_type=refresh_token&refresh_token=${refreshToken}`
+    const url = `${apiBaseURL}?client_id=${clientID}&client_secret=${clientSecret}&grant_type=refresh_token&refresh_token=${refreshToken}`
 
     try{
         const response = await axios.post(url);
