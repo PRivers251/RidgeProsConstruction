@@ -1,23 +1,23 @@
 /*Form Section*/
-.LeadFormContainer {
+.LeadFormSection {
     @apply border-solid min-h-60;
     background-color: 
     rgb(240,43,52);
 } 
 
-.LeadFormContainer h1 {
+.LeadFormSection h1 {
     @apply text-center pt-8 text-xl font-bold text-white;
 }
 
-.LeadFormContainer form {
+.LeadFormSection form {
     @apply flex flex-col  w-full py-5 items-center;
 }
 
-.LeadFormContainer label {
+.LeadFormSection label {
     @apply pt-3
 }
 
-.LeadFormContainer input {
+.LeadFormSection input {
     @apply p-1 pl-3 rounded-sm w-3/4
 }
 
@@ -33,6 +33,10 @@
     @apply mt-8 p-2 text-2xl border-solid border-2 text-white font-bold rounded-lg w-full md:w-auto;
 }
 
-.LeadFormContainer button:hover {
+.LeadFormSection button:hover {
     @apply bg-white text-black;
+}
+
+.submittedMessage {
+    @apply text-white p-5 mt-5 text-left text-lg;
 }
