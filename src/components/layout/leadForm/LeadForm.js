@@ -2,6 +2,7 @@
 import axios from 'axios'
 import { useState } from 'react';
 import {validateState} from './utils/stateValidation';
+import './LeadForm.css'
 
 export default function QuoteForm() {
     // State for form data and error messages
@@ -49,7 +50,7 @@ export default function QuoteForm() {
     
 
     return (
-        <section className="QuoteFormContainer">
+        <section className="LeadFormContainer">
             <div>
                 <h1>Schedule Your FREE Inspection!</h1>
             </div>
@@ -81,7 +82,7 @@ export default function QuoteForm() {
                     <label htmlFor="Zip_Code"></label>
                     <input type="text" id="Zip_Code" name="Zip_Code" placeholder="Zip Code" maxLength="5" pattern="\d{5}" onChange={handleChange} />
 
-                    <div className="QuoteFormSubmitContainer">
+                    <div className="LeadFormSubmitContainer">
                         <button type="submit" id="submit" className="submit" aria-label="Submit" title="Submit">Submit</button>
                     </div>
                 </form>

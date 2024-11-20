@@ -6,15 +6,15 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { Navigation, Pagination } from 'swiper/modules';
-import '../../../styles/homePage.css'; //custom styles
+import '../styles/homePage.css'; //custom styles
 
 export default function Cards(){
     return (
         <section className="servicesSection">
             <div className="w-full">
-                <h1 className="text-3xl font-bold text-center mb-6">Services</h1>
+                <h1>Services</h1>
             </div>
-            <div className="max-w-screen-md w-full">
+            <div className="w-full">
             <Swiper
                 className="pt-5"
                 modules={[Navigation, Pagination]}
@@ -32,7 +32,7 @@ export default function Cards(){
                 pagination={{ clickable: true }}
                 >
                     <SwiperSlide className='serviceCard'>
-                        <div className='serviceHeader'>Roof Replacement</div>
+                        <div className='serviceCardHeader'>Roof Replacement</div>
                         <div className='servicePhotoContainer'>
                             <Image 
                             src="/images/servicesPhoto1.jpg"
@@ -83,7 +83,7 @@ export default function Cards(){
                     </SwiperSlide>
                     
                     <SwiperSlide className='serviceCard'>
-                        <div className='serviceHeader'>Roof Repair</div>
+                        <div className='serviceCardHeader'>Roof Repair</div>
                         <div className='servicePhotoContainer'>
                             <Image 
                             src="/images/roofRepairPhoto.png"
@@ -127,7 +127,7 @@ export default function Cards(){
                     </SwiperSlide>
 
                     <SwiperSlide className='serviceCard'>
-                        <div className='serviceHeader'>Disaster Mitigation</div>
+                        <div className='serviceCardHeader'>Disaster Mitigation</div>
                         <div className='servicePhotoContainer'>
                             <Image 
                             src="/images/disasterMitigationPhoto.jpg"
@@ -176,7 +176,7 @@ export default function Cards(){
                     </SwiperSlide>
                     
                     <SwiperSlide className='serviceCard'>
-                        <div className='serviceHeader'>Residential Construction</div>
+                        <div className='serviceCardHeader'>Residential Construction</div>
                         <div className='servicePhotoContainer'>
                             <Image 
                             src="/images/homeRemodelPhoto.jpg"
@@ -224,7 +224,7 @@ export default function Cards(){
                     </SwiperSlide>
                     
                     <SwiperSlide className='serviceCard'>
-                        <div className='serviceHeader'>Estimate Services</div>
+                        <div className='serviceCardHeader'>Estimate Services</div>
                         <div className='servicePhotoContainer'>
                             <Image 
                             src="/images/roof-estimating.png"

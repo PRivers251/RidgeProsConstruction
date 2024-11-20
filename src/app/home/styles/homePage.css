@@ -1,0 +1,119 @@
+
+/*Hero Section*/
+.heroSection {
+    min-height: 50vh;
+    @apply relative bg-[url('/images/heroImg.png')] bg-cover flex w-full flex-col;
+}
+
+
+.heroBGOverlay {
+    @apply absolute inset-0 bg-black bg-opacity-50;
+}
+
+.titleContainer {
+    @apply flex flex-col z-40
+    ml-10 mt-10
+    md:relative md:top-20 md:left-5 w-1/2;
+}
+
+.heroSubtitle {
+    color: 
+    rgb(240,43,52);
+    @apply relative text-3xl font-bold mt-3;
+}
+
+.heroCTAButtonContainer {
+    @apply w-full z-40
+    flex md:justify-center 
+    md:relative md:top-40 md:top-32 
+    my-5
+    text-center text-2xl font-bold text-white;
+}
+
+.heroCTAButton {
+    @apply w-full md:w-auto md:px-5 border-solid border-2 p-2 rounded-lg hover:bg-white hover:text-black;
+}
+
+
+/*Services section*/
+.swiper-slide {
+    @apply w-full;
+    height: auto;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    @apply hidden md:block;
+}
+
+.servicesSection {
+    min-height: 33vh;
+    @apply flex flex-col items-center justify-center p-2 mt-5
+}
+
+.servicesSection h1 {
+    @apply text-3xl font-bold text-center
+}
+
+.serviceCard {
+    @apply flex flex-col flex-grow
+    items-center
+    w-full bg-white py-3 mt-3
+    rounded-lg shadow-md 
+    transition-transform 
+    hover:-translate-y-2;
+    height:auto;
+    min-height: 30rem;
+}
+
+.serviceCard .serviceCardHeader {
+    @apply text-xl font-bold py-3
+}
+
+.servicePhotoContainer {
+    @apply relative w-full justify-center
+    overflow-hidden;
+    height: auto;
+    min-height: 15rem;
+}
+
+.servicesContent {
+    @apply flex-col text-left p-2;
+    height: auto;
+    min-height: 50%;
+}
+
+.servicesContent li {
+    @apply my-4
+}
+
+
+/*About Us Section*/
+.aboutUsSection {
+    min-height: 40vh;
+    @apply relative bg-[url('/images/aboutUsBG.png')] bg-cover;
+}
+
+.aboutUsSectionPic {
+    max-width: 50%;
+    min-height: 300px;
+    object-fit: cover;
+}
+
+.aboutUsBGOverlay {
+    @apply absolute inset-0 opacity-65;
+    background-color: rgb(214, 219, 220);
+    
+}
+
+.aboutUsContentContainer {
+    @apply relative px-6 pb-10 z-20 text-lg;
+}
+
+/* Reviews Section */
+.reviewsSectionWrapper {
+    @apply flex flex-col items-center py-5 !important;
+}
+
+.reviewsSectionWrapper h1 {
+    @apply text-3xl font-bold text-center
+}

@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useState } from 'react';
+import './Header.css'
 
 export default function Header(){
   const [isOpen, setIsOpen] = useState(false);

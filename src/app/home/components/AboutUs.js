@@ -1,4 +1,4 @@
-import '../../../styles/homePage.css'; //custom styles
+import '../styles/homePage.css'; //custom styles
 
 
 export default function AboutUs(){
