@@ -9,7 +9,7 @@ export default function Hero(){
           <h1 className="heroSubtitle">Your Trusted Local Roofing Experts </h1>
           </div>
           <div className="heroCTAButtonContainer">
-            <button href="#" className="heroCTAButton">Call Today</button>
+            <a href="tel:+12513917030" className="heroCTAButton">Call Today</a>
             </div>
         </section>
     )

@@ -7,7 +7,7 @@ export default function AboutUs(){
            <div className="aboutUsBGOverlay">
                 
                 </div>
-            <h1 className="relative text-3xl font-bold text-center py-6 z-20">Who We Are - Storm Shield Builders LLC</h1>
+            <h1 className="aboutUsSectionTitle">Who We Are - Storm Shield Builders LLC</h1>
             
             <div className="aboutUsContentContainer">
                 <p>

@@ -2,7 +2,7 @@
 /*Hero Section*/
 .heroSection {
     min-height: 50vh;
-    @apply relative bg-[url('/images/heroImg.png')] bg-cover flex w-full flex-col;
+    @apply relative bg-[url('/images/heroImg.png')] bg-cover bg-center flex w-full flex-col;
 }
 
 
@@ -13,7 +13,7 @@
 .titleContainer {
     @apply flex flex-col z-40
     ml-10 mt-10
-    md:relative md:top-20 md:left-5 w-1/2;
+    md:relative md:top-40 md:left-5 w-1/2;
 }
 
 .heroSubtitle {
@@ -24,8 +24,8 @@
 
 .heroCTAButtonContainer {
     @apply w-full z-40
-    flex md:justify-center 
-    md:relative md:top-40 md:top-32 
+    flex md:justify-center md:relative
+    md:top-80
     my-5
     text-center text-2xl font-bold text-white;
 }
@@ -87,10 +87,26 @@
 }
 
 
+
+/* Reviews Section */
+.reviewsSectionWrapper {
+    @apply flex flex-col items-center py-5 !important;
+}
+
+.reviewsSectionWrapper h1 {
+    @apply text-3xl font-bold text-center
+}
+
+
+
 /*About Us Section*/
 .aboutUsSection {
     min-height: 40vh;
-    @apply relative bg-[url('/images/aboutUsBG.png')] bg-cover;
+    @apply relative bg-[url('/images/aboutUsBG.png')] bg-cover flex flex-col items-center;
+}
+
+.aboutUsSectionTitle {
+    @apply relative text-3xl font-bold text-center py-6 z-20;
 }
 
 .aboutUsSectionPic {
@@ -106,14 +122,5 @@
 }
 
 .aboutUsContentContainer {
-    @apply relative px-6 pb-10 z-20 text-lg;
-}
-
-/* Reviews Section */
-.reviewsSectionWrapper {
-    @apply flex flex-col items-center py-5 !important;
-}
-
-.reviewsSectionWrapper h1 {
-    @apply text-3xl font-bold text-center
+    @apply relative px-6 pb-10 z-20 text-lg md:max-w-screen-md;
 }
