@@ -12,8 +12,13 @@
 
 .titleContainer {
     @apply flex flex-col z-40
-    ml-10 mt-10
-    md:relative md:top-40 md:left-5 w-1/2;
+    ml-10 mt-10 w-1/2;
+}
+
+@media (min-width:1000px) {
+    .titleContainer{
+        @apply relative top-40 left-5 
+    }
 }
 
 .heroSubtitle {
@@ -24,16 +29,25 @@
 
 .heroCTAButtonContainer {
     @apply w-full z-40
-    flex md:justify-center md:relative
-    md:top-80
-    my-5
+    flex
+    mt-10
+    mb-5
     text-center text-2xl font-bold text-white;
 }
 
 .heroCTAButton {
-    @apply w-full md:w-auto md:px-5 border-solid border-2 p-2 rounded-lg hover:bg-white hover:text-black;
+    @apply w-full border-solid border-2 p-2 rounded-lg hover:bg-white hover:text-black;
 }
 
+@media (min-width: 1000px) {
+    .heroCTAButtonContainer {
+        @apply justify-center relative top-80
+    }
+    
+    .heroCTAButton {
+        @apply w-auto px-5
+    }
+}
 
 /*Services section*/
 .swiper-slide {

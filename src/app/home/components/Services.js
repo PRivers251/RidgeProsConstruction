@@ -227,7 +227,7 @@ export default function Cards(){
                         <div className='serviceCardHeader'>Estimate Services</div>
                         <div className='servicePhotoContainer'>
                             <Image 
-                            src="/images/roof-estimating.png"
+                            src="/images/servicesEstimation.png"
                             layout='fill'
                             objectFit='cover'
                             />
