@@ -1,0 +1,120 @@
+
+/* Title Section */
+
+.titleSection {
+    min-height: 25vh;
+    @apply 
+    bg-[url('/images/servicesPageTitleImg.png')] bg-cover bg-center
+    flex flex-col 
+    text-center relative
+    justify-center;
+}
+
+.bg-overlay {
+    @apply absolute inset-0 ;
+    background-color:rgba(183, 27, 48, 0.616);
+}
+
+.titleSection h1 {
+    @apply text-5xl font-bold p-5 z-40 text-white
+}
+
+
+/* Content Section */
+
+.contentSection {
+    min-height: 57vh;
+    @apply py-5 mb-3 bg-white
+    flex-col items-center;
+}
+
+.contentSection img {
+    @apply rounded-lg
+}
+
+.contentSection h2 {
+    @apply text-2xl font-bold ml-5;
+}
+
+@media (min-width: 1000px) {
+    .contentSection {
+        @apply px-10;
+    }
+}
+
+.serviceItemSection {
+    @apply my-5
+}
+
+@media (min-width: 1000px) {
+    .serviceItemSection {
+        @apply flex mx-2 py-10
+    }
+
+    .serviceItemSection:nth-child(even) .imgWrapper {
+        order:2
+    }
+}
+
+
+.serviceItem {
+    @apply flex flex-col; 
+}
+
+@media (min-width: 1000px) {
+
+    .serviceItem {
+        max-width: 60%;
+    }
+}
+
+.serviceItemListHeader {
+    @apply rounded-l-lg ml-5 py-2 mt-5 flex;
+    background-color: rgba(183, 27, 48);
+    clip-path: polygon(0 0, 100% 0, 75% 100%, 0% 100%);
+    width: 90%;
+}
+
+@media (min-width: 1000px) {
+    .serviceItemListHeader {
+        width: 60%;
+    }
+}
+
+.contentSection h3 {
+    @apply flex px-2 mx-5 text-xl justify-center text-white;
+    max-width: 75%;
+}
+
+.contentSection ul {
+   @apply ml-5;
+    max-width: 75%;
+}
+
+.contentSection p {
+    @apply pt-3 px-5
+}
+
+.imgWrapper {
+    @apply flex flex-col items-center
+    overflow-hidden justify-center rounded-lg;
+    max-height: 30rem;
+    max-width: 90%;
+    margin: auto;
+    margin-bottom: 3rem;
+    margin-top: 5rem;
+}
+
+@media (min-width: 1000px) {
+    .imgWrapper {
+        margin-bottom: 0;
+        margin-top: 0;
+        max-height:30rem;
+        max-width: 50%;
+    }
+}
+
+.imgWrapper img {
+    @apply rounded-lg object-cover;
+    max-width: 100%;
+}

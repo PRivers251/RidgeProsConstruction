@@ -1,8 +1,12 @@
-
+import TitleSection from "./components/TitleSection"
+import ContentSection from "./components/ContentSection"
 
 
 export default function(){
     return (
-        <h1>Services Page</h1>
+        <div>
+            <TitleSection />
+            <ContentSection />
+        </div>
     )
 }
