@@ -12,3 +12,7 @@
   .footer .signature {
     @apply flex p-3 justify-end items-end text-slate-200; 
   }
+
+  .licenseNumberSection {
+    @apply m-auto text-white;
+  }

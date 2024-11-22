@@ -11,8 +11,8 @@ export default function AboutUs(){
             
             <div className="aboutUsContentContainer">
                 <p>
-                    Storm Shield Builders LLC is a trusted name in roofing, construction, and disaster mitigation services in Mobile, AL, and the 
-                    surrounding Gulf Coast areas. 
+                    Storm Shield Builders LLC is a trusted name licensed and bonded in the state of Alabama in roofing, construction, and disaster mitigation services in Mobile, AL, and the 
+                    surrounding Gulf Coast areas.
                 </p>
                 <br/>
                 <p>    

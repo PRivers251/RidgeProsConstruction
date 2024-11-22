@@ -16,6 +16,10 @@ export default function Footer(){
             </ul>
             </div>
 
+            <div className='licenseNumberSection'>
+                License #: 31887
+            </div>
+
             <div className="signature">
                 <p>Powered by: 
                 <a href="https://www.github.com/privers251"
