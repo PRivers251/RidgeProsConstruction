@@ -121,6 +121,9 @@ export default function ContentSection() {
                         <img src='/images/jonathan.png' />
                     </div>
                     <div className='teamMemberContent'>
+                        <h2>
+                            Jonathan
+                        </h2>
                         <p>
                             Born and raised in Fairhope, AL, Jonathan brings a wealth of expertise and hands-on experience to Storm Shield Builders LLC.
                             With an extensive construction background that includes concrete work, wood and metal framing, roofing, bathroom remodeling,

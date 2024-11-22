@@ -17,7 +17,13 @@
 
 @media (min-width:1000px) {
     .titleContainer{
-        @apply relative top-40 left-5 
+         
+    }
+}
+
+@media (min-width: 754px) {
+    .titleContainer {
+        margin-top: 10rem;
     }
 }
 
@@ -41,11 +47,18 @@
 
 @media (min-width: 1000px) {
     .heroCTAButtonContainer {
-        @apply justify-center relative top-80
+        @apply justify-center;
+        margin-top: 20rem;
     }
     
     .heroCTAButton {
         @apply w-auto px-5
+    }
+}
+
+@media (min-width: 754px) {
+    .heroCTAButtonContainer {
+        margin-top: 8rem;
     }
 }
 

@@ -5,7 +5,7 @@ export default function ContentSection() {
 
     return (
         <section className='contentSection'>
-            <div>
+            <div className='servicesIntroSection'>
                 <h2>Serving Mobile, Alabama & the Gulf Coast Region</h2>
                 <p>
                     At storm Shield Builders LLC, we take pride in offering a comprehensive
@@ -136,7 +136,7 @@ export default function ContentSection() {
                     
                     <div className='serviceItemListHeader'>
                         <h3>
-                            Our Disaster Mitigation Solutions
+                            Our Disaster Mitigation Solutions:
                         </h3>
                     </div>    
                     <ul>
@@ -176,7 +176,7 @@ export default function ContentSection() {
 
             <div className='serviceItemSection'>
                 <div className='imgWrapper'>
-                    <img src='images/servicesEstimation.png'/>
+                    <img src='images/servicesHomeRemodel.png'/>
                 </div>
                 <div className='serviceItem'>
                     <h2>General Residential Construction Services in Mobile, AL</h2>
