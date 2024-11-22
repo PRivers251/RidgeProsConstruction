@@ -26,7 +26,7 @@ export default function Header(){
             <a href="/" className="navMenuItem">Home</a>
             <a href="/about" className="navMenuItem">About</a>
             <a href="/services" className="navMenuItem">Services</a>
-            <a href="tel:+12513917030" className="headerCTAButton">Call Now!</a>
+            <a href="tel:+12513917034" className="headerCTAButton">Call Now!</a>
         </div>
 
         {/*Hamburger Menue*/}
