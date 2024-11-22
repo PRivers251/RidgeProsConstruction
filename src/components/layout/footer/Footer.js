@@ -17,12 +17,16 @@ export default function Footer(){
             </div>
 
             <div className='licenseNumberSection'>
-                License #: 31887
+                License #: <a href='https://alhobprod.glsuite.us/GLSuiteWeb/Clients/ALHOB/Public/LicenseeDetails.aspx?EntityID=1249562'
+                alt='Link to display License Page'
+                target='_blank'
+                >31887</a>
             </div>
 
             <div className="signature">
                 <p>Powered by: 
                 <a href="https://www.github.com/privers251"
+                alt="Link to the web develper's GitHub profile"
                 target="_blank">Patrick Rivers</a></p>
             </div>
         </footer>
