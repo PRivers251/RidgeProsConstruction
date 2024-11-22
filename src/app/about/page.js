@@ -1,8 +1,11 @@
-
-
+import TitleSection from './components/TitleSection'
+import ContentSection from './components/ContentSection'
 
 export default function About(){
     return (
-        <h1>Hello! Thank you for visiting. This page is currently under construction.</h1>
+        <div>
+            <TitleSection />
+            <ContentSection />
+        </div>
     )
 }

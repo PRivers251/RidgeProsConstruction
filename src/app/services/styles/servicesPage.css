@@ -24,7 +24,7 @@
 
 .contentSection {
     min-height: 57vh;
-    @apply py-5 mb-3 bg-white
+    @apply py-5 px-10 mb-3 bg-white
     flex-col items-center;
 }
 
@@ -69,7 +69,7 @@
 }
 
 .serviceItemListHeader {
-    @apply rounded-l-lg ml-5 py-2 mt-5 flex;
+    @apply rounded-l-lg ml-5 py-2 mt-5 flex shadow-lg;
     background-color: rgba(183, 27, 48);
     clip-path: polygon(0 0, 100% 0, 75% 100%, 0% 100%);
     width: 90%;
@@ -82,7 +82,7 @@
 }
 
 .contentSection h3 {
-    @apply flex px-2 mx-5 text-xl justify-center text-white;
+    @apply flex mx-5 text-xl justify-center text-white;
     max-width: 75%;
 }
 
@@ -92,12 +92,12 @@
 }
 
 .contentSection p {
-    @apply pt-3 px-5
+    @apply pt-3 
 }
 
 .imgWrapper {
     @apply flex flex-col items-center
-    overflow-hidden justify-center rounded-lg;
+    overflow-hidden justify-center rounded-lg shadow-lg;
     max-height: 30rem;
     max-width: 90%;
     margin: auto;

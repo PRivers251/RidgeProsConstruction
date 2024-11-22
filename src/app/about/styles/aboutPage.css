@@ -1,0 +1,89 @@
+
+
+
+
+/* Title Section */
+
+.titleSection {
+    min-height: 25vh;
+    @apply 
+    bg-[url('/images/servicesPageTitleImg.png')] bg-cover bg-center
+    flex flex-col 
+    text-center relative
+    justify-center;
+}
+
+.bg-overlay {
+    @apply absolute inset-0 ;
+    background-color:rgba(183, 27, 48, 0.616);
+}
+
+.titleSection h1 {
+    @apply text-5xl font-bold p-5 z-40 text-white
+}
+
+
+
+/* Content Section */
+.contentSection {
+    @apply bg-white;
+}
+
+.introSection {
+    @apply px-10
+}
+
+.introSection h1 {
+    @apply text-2xl font-bold pt-10;
+}
+
+.introSection p {
+    @apply pt-5;
+}
+
+.introSection h2 {
+    @apply pt-5 text-xl font-bold;
+}
+
+.introSection h3 {
+    @apply pt-5 font-bold text-xl
+}
+
+
+
+
+/* Team */
+.teamSection {
+    @apply pt-5 mt-5 flex-col px-10;
+    background-color: #f2ebdc59;
+}
+
+.teamSectionTitle {
+    @apply text-2xl font-bold text-center;
+}
+
+.teamMember {
+    @apply flex-col m-auto w-fit pt-5;
+}
+
+.teamMemberPhoto img {
+    @apply m-auto;
+    border-radius: 100%;
+    max-width: 13rem;
+}
+
+.teamMember h2 {
+    @apply text-xl w-fit m-auto py-5;
+}
+
+.teamMember p {
+    @apply pt-5
+}
+
+.teamMember:first-of-type {
+    @apply pb-10
+}
+
+.teamMemberContent:last-child {
+    @apply pb-5
+}
