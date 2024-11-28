@@ -11,7 +11,7 @@ export default function Home() {
         <Hero />
         <LeadForm />
         <Services />
-        <Reviews />
+        {/* <Reviews /> */}
         <AboutUs />
     </div>
   );
