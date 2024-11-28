@@ -7,15 +7,12 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Storm Shield Builders LLC",
-  description: "Mobile, AL Trusted Roofing Experts",
+  description: "Mobile, Saraland, & Citronelle, AL Trusted Roofing Experts",
   metadata: `Storm Shield Builders LLC offers expert roofing, construction and disaster mitigation services
   in Mobile, Saraland, and Citronelle, AL. Contact us today for a free estimate!`,
   icons: {
     icon: '../images/storm-shield-logo.png'
   }
-  
-  
-  
 }
 
 export default function RootLayout({ children }) {
