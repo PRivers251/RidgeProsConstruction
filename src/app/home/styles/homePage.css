@@ -124,6 +124,10 @@
     @apply text-3xl font-bold text-center
 }
 
+.reviewsSectionHeader {
+    margin-bottom: 2rem;
+}
+
 
 
 /*About Us Section*/
